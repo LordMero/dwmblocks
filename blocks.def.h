@@ -4,8 +4,8 @@ static const Block blocks[] = {
     {"", "internet", 60, 9},
     {"", "pacupdate", 60, 9},
     {"", "volume2", 0, 10},
-    {"", "battery2", 1, 11},
-	{"", "date '+%a, %b %d  %I:%M%p'",					60,		0},
+    {"", "battery3", 1, 11},
+	{" ", "date '+%H:%M | %d.%m.%Y'",					60,		0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
